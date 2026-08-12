@@ -69,7 +69,7 @@ door_open, and FSM state cycling through requests:
 reset to `$finish` at 14.225 us; `pass_count` ends at `0x6f` = 111, `fail_count`
 stays `0`):
 
-![Full run waveform, 111 passed](docs/screenshots/full_run_waveform_111.jpeg)
+![Full run waveform, 111 passed](docs/screenshots/test_summary_102.png)
 
 **Test summary — 111/111 passing** (Vivado Tcl console, after the fire-mode fix
 and the new `TEST 11b` regression test):
