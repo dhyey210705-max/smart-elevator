@@ -65,13 +65,14 @@ door_open, and FSM state cycling through requests:
 
 ![Waveform](docs/screenshots/waveform.png)
 
-**Test summary — 102/102 passing** (original suite, before the fire-mode fix
-and regression test were added):
+**Full regression run — 111/111 passing** (Vivado waveform view, full run from
+reset to `$finish` at 14.225 us; `pass_count` ends at `0x6f` = 111, `fail_count`
+stays `0`):
 
-![Test summary 102](docs/screenshots/test_summary_102.png)
+![Full run waveform, 111 passed](docs/screenshots/full_run_waveform_111.jpeg)
 
-**Test summary — 111/111 passing** (Vivado Tcl console, after the fix and the
-new `TEST 11b` regression test):
+**Test summary — 111/111 passing** (Vivado Tcl console, after the fire-mode fix
+and the new `TEST 11b` regression test):
 
 ![Test summary 111](docs/screenshots/test_summary_111_vivado.png)
 
